@@ -1,0 +1,60 @@
+/*Write your CSS in here*/
+@import url(
+  https://fonts.googleapis.com/css?family=Source+Code+Pro:200,
+  300,
+  400,
+  500,
+  600,
+  700,
+  900
+);
+
+/*  what we're selecting*/
+h1 {
+  /*how to style it */
+  font-weight: 200;
+  font-size: 70px;
+  text-transform: uppercase;
+  border-top: 5px solid;
+}
+
+body {
+  background-color: #f69680;
+  color: #2e1263;
+  font-family: "Source Code Pro", monospace;
+  font-weight: 200;
+}
+img {
+  height: 400px;
+  border-radius: 50%;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+button {
+  margin: 30px auto 0;
+  padding:  20px 20px;
+  background-color: #f69680;
+  color: #2e1263;
+  font-size: 14px;
+  text-align: center;
+  border: 1px solid #2e1263;
+  text-transform: uppercase;
+  text-decoration: :none;
+  outline:none;
+}
+
+
+button:hover{
+    transition: 0.3s;
+    background-color: #2e1263;
+    color: #f69680;
+    text-decoration: underline;
+
+
+}
